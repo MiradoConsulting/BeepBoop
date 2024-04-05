@@ -15,7 +15,7 @@ public class BeepBoop extends Robot
 		while(true) {
 			ahead(1000);
 			turnLeft(45.0);
-			turnGunLeft(360.0);
+			//turnGunLeft(360.0);
 		}
 	}
 
@@ -24,7 +24,7 @@ public class BeepBoop extends Robot
 	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
-		fire(1);
+		//fire(1);
 	}
 
 	/**
