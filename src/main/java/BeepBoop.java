@@ -15,6 +15,7 @@ public class BeepBoop extends Robot
 		while(true) {
 			ahead(1000);
 			turnLeft(45.0);
+			turnGunLeft(360.0);
 		}
 	}
 
@@ -31,7 +32,7 @@ public class BeepBoop extends Robot
 	 */
 	public void onHitByBullet(HitByBulletEvent e) {
 		// Replace the next line with any behavior you would like
-		back(10);
+		//back(10);
 	}
 	
 	/**
@@ -39,6 +40,6 @@ public class BeepBoop extends Robot
 	 */
 	public void onHitWall(HitWallEvent e) {
 		// Replace the next line with any behavior you would like
-		back(20);
+		//back(20);
 	}	
 }
